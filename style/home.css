@@ -1,0 +1,139 @@
+body 
+	{
+		background-color: #aaaaaa;
+		color: #000000;
+	}
+#header
+	{
+	    background-image: url('img/Nieuw_logo_met_tekst_BW8.png');
+		width:700px;
+		height:150px;
+		background-color: transparent;
+		margin: auto;
+	}
+h1
+	{
+		Font-size: 18px;
+		background-color: #b40000;
+		border-radius: 20px;
+		color: #ffffff;
+		text-align: center;
+		display: block;
+		width: 700px;
+		height: 50px;
+		line-height: 50px;
+		margin: auto;
+	}
+h2
+	{
+		background-color: #b45555;
+		border-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+td#input,
+td#tdOpbouwen,
+td#tdVrijdag,
+td#tdZat,
+td#tdZatavond,
+td#tdZondag,
+td#tdAfbreken
+	{
+		vertical-align: middle;
+		border-radius: 17px;
+		background: transparent;
+		border: 2px solid #ececec;
+		height: 40px; 
+		color: #000000;
+	}
+input[type="text"]
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+	}
+
+input[type="text"]:focus
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+		text-decoration: none;
+	}
+input[type="radio"]#radOpbouwen1,
+input[type="radio"]#radVrijdag1,
+input[type="radio"]#radZat1,
+input[type="radio"]#radAfbreken1
+	{
+	  margin-left: 10px;
+	}
+input[type="radio"]#radOpbouwen0,
+input[type="radio"]#radVrijdag0,
+input[type="radio"]#radZat0,
+input[type="radio"]#radAfbreken0
+	{
+	  margin-left: 60px;
+	}
+table#naamwn,
+table#helpen,
+table#doorgeven
+	{
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+td#vnaam,
+td#anaam,
+td#txtOpbouwen,
+td#txtVrijdag,
+td#txtZat,
+td#txtZatAvond,
+td#txtZondag,
+td#txtAfbreken
+	{
+		text-align: left;
+		font-size: 16px;
+		line-height: 25px;
+		height: 25px;
+		width: 25%;
+	}
+select 
+	{
+		width: 315px;
+		height: 40px;
+		margin-left: 10px;
+		border: none;
+		border-radius: 15px;
+		background-color: #cccccc;
+	}
+input[type="submit"]
+	{
+		Font-size: 18px;
+		background-color: #b40000;
+		border-radius: 20px;
+		color: #ffffff;
+		text-align: center;
+		display: block;
+		width: 200px;
+		height: 40px;
+		line-height: 6px;
+		margin: auto;
+	}
+td#doorgeven
+	{
+		vertical-align: middle;
+		border-radius: 17px;
+		background: transparent;
+		height: 40px; 
+		color: #000000;
+	}
