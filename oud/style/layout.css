@@ -1,0 +1,539 @@
+body 
+	{
+		background-color: #cccccc;
+		color: #000000;
+	}
+
+#event_name, h1
+	{
+		Font-size: 18px;
+		background-color: #b40000;
+		border-radius: 20px;
+		color: #ffffff;
+		text-align: center;
+		display: block;
+		width: 700px;
+		height: 50px;
+		line-height: 50px;
+		margin: auto;
+	}
+
+#header
+	{
+	    background-image: url('img/Nieuw_logo_met_tekst_BW8.png');
+		width:700px;
+		height:150px;
+		background-color: transparent;
+		margin: auto;
+	}
+
+#dog_info, #owner_info, h2
+	{
+		background-color: #b45555;
+		border-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+#foutmelding
+	{
+		background-color: #b40000;
+		border-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+table#dog, table#owner, table#inschrijven, table#errorcode, table#correct, table#gelukt
+	{
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+td#text
+	{
+		width: 25%;
+	}
+
+td#input, td#distance, td#country
+	{
+		vertical-align: middle;
+		border-radius: 17px;
+		background: transparent;
+		border: 2px solid #ececec;
+		height: 40px; 
+		color: #000000;
+	}
+
+td#inschrijven
+	{
+		vertical-align: middle;
+		border-radius: 17px;
+		background: transparent;
+		height: 40px; 
+		color: #000000;
+	}
+
+td#empty
+	{
+		width: 30%;
+	}
+
+#foutje
+	{
+		width: 500px;
+		height: 30px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+		font-weight: bold;
+		text-align: center;
+		margin: auto;
+	}	
+
+td#foutje
+	{
+		vertical-align: middle;
+		border-radius: 17px;
+		background: transparent;
+		border: 2px solid #ececec;
+		height: 40px; 
+		color: #b40000;
+		
+	}
+
+td#foutje_empty
+	{
+		width:2%;
+	}	
+	
+td#correcttop
+	{
+		width:95%;
+		background-color: #b45555;
+		border-top-right-radius: 11px;
+		border-top-left-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+td#correctbottom
+	{
+		width:95%;
+		background-color: #b45555;
+		border-bottom-right-radius: 11px;
+		border-bottom-left-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}	
+
+.name_dog
+	{
+		margin-left: 10px;
+	}
+	
+input[type="text"]
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+	}
+
+input[type="text"]:focus
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+		text-decoration: none;
+	}
+	
+input[type="email"]
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+	}
+
+input[type="email"]:focus
+	{
+		width: 300px;
+		height: 35px;
+		border: none;
+		background: transparent;
+		margin-left: 10px;
+		text-decoration: none;
+	}
+
+input[type="radio"]#Distance6
+	{
+	  margin-left: 10px;
+	}	
+	
+input[type="radio"]#Distance12
+	{
+	  margin-left: 60px;
+	}
+
+select 
+	{
+		width: 315px;
+		height: 40px;
+		margin-left: 10px;
+		border: none;
+		border-radius: 15px;
+		background-color: #cccccc;
+	}
+
+input[type="submit"]
+	{
+		Font-size: 18px;
+		background-color: #b40000;
+		border-radius: 20px;
+		color: #ffffff;
+		text-align: center;
+		display: block;
+		width: 200px;
+		height: 40px;
+		line-height: 6px;
+		margin: auto;
+	}
+
+.thepot 
+	{
+		display:none;
+	}
+
+p#contracts
+	{
+		background-color: #b45555;
+		border-top-right-radius: 11px;
+		border-top-left-radius: 11px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 775px;
+		height: 25px;
+		margin: auto;		
+	}
+	
+table#contracts
+	{
+		width: 775px;
+		margin-left: auto;
+		margin-right: auto;
+		border-collapse: collapse;
+		border-radius: 11px;
+	}
+
+tr#contracts:nth-child(even)
+	{
+		background-color: #afafaf;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+tr#contracts:nth-child(odd)
+	{
+		background-color: #cccccc;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+tr#contracts:hover
+	{
+		background-color: #aeeaae;
+		color: #000000;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+font#owner
+	{
+		color: #66ff66;
+		font-weight: bold;
+	}
+
+td#event
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		border-right: 1px solid white;
+	}
+
+td#event_date
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		border-right: 1px solid white;
+	}
+
+td#name_dog
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+td#dog_breath
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+td#dog_club
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+td#entry_date
+	{
+		text-align: right;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
+
+td#uitschrijving
+	{
+		text-align: center;
+	}
+
+td#uitschrijving a:link, td#uitschrijving a:visited 
+	{
+		display: inline-block;
+		width:100%;
+		background-color: #b40000;
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		border-radius: 11px;
+	}
+
+td#uitschrijving:hover a 
+	{
+		display:block;
+		width:100%;
+		background-color: #b40000;
+		text-align: center;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		border-top-right-radius: 11px;
+		border-bottom-right-radius: 11px;
+	}
+
+	
+th#event
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		border-bottom-left-radius: 11px;
+		width: 15%;
+	}
+
+th#name_dog 
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		width: 20%;
+	}
+	
+th#dog_breath
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		width: 20%;
+	}
+
+th#dog_club
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		width: 15%;
+	}
+
+th#entry_date
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		width: 15%;
+	}
+
+th#uitschrijving
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+		border-bottom-right-radius: 11px;
+		width: 15%;
+	}
+	
+td#gelukt1
+	{
+		width:95%;
+		background-color: #b40000;
+		border-top-right-radius: 25px;
+		border-top-left-radius: 25px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+td#gelukt2
+	{
+		width:95%;
+		background-color: #b40000;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+td#gelukt3
+	{
+		width:95%;
+		background-color: #b40000;
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+		color: #ffffff;
+		font-size: 14px;
+		text-align: center;
+		line-height: 25px;
+		display: block;
+		width: 700px;
+		height: 25px;
+		margin: auto;
+	}
+
+table#deelnemers
+	{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		border-collapse: collapse;
+		border-radius: 11px;
+		border-left: 1px;
+	}	
+
+th#deelnemers
+	{
+		background-color: #b45555;
+		text-align: right;
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+		margin: auto;
+	}
+
+tr#deelnemers:nth-child(even)
+	{
+		background-color: #afafaf;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+
+tr#deelnemers:nth-child(odd)
+	{
+		background-color: #cccccc;
+		font-size: 14px;
+		line-height: 25px;
+		height: 25px;
+	}
+td#deelnemers
+	{
+		border-left: 1px;
+		border-left-color: #b40000;
+		text-align: center;
+	}
